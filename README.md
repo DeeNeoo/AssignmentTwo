@@ -7,6 +7,54 @@ It is designed to help users study history by answering five True/False question
 //The link to the youTube video.
 https://www.youtube.com/watch?v=XxxLKck1hRM
 
+//gitHub repository link
+
+
 //Screen shots of the app.
+//The first screen.
+
+
+![image](https://github.com/user-attachments/assets/136a0f3e-23a2-4b7d-8f8b-dbeec8aacffb)
+
+//Second screen
+
+
+![Screenshot 2025-05-21 145252](https://github.com/user-attachments/assets/89e69e80-5487-428d-a282-c2e3d3346092)
+
+//Third screen showing that the application gives feedback right after selecting an answer
+
+
+![Screenshot 2025-05-21 145559](https://github.com/user-attachments/assets/63a33748-1e6f-4fea-8762-a91389278f7d)
+
+
+//Feedback of an incorrect answer
+
+
+![Screenshot 2025-05-21 145646](https://github.com/user-attachments/assets/2eb2d9e8-6611-4c53-a1ae-fd84ba0ad419)
+
+
+//The 4th screen with the total score and feedback
+
+![Screenshot 2025-05-21 145656](https://github.com/user-attachments/assets/c65e401a-993f-4e58-bd28-bbeac2a20c04)
+
+
+//The 4th screen with feedback and total score.
+
+![Screenshot 2025-05-21 145839](https://github.com/user-attachments/assets/84ea92cb-00d7-472d-b76e-baaf377d9753)
+
+
+//The review screen
+
+![Screenshot 2025-05-21 145713](https://github.com/user-attachments/assets/fbe0860d-1297-44db-a8ec-bc884ad5616f)
+
+
+
+
+
+
+
+
+
+
 
 

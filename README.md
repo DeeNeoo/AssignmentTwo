@@ -14,13 +14,15 @@ https://github.com/DeeNeoo/AssignmentTwo
 //Screen shots of the app.
 //The first screen.
 
+![Screenshot 2025-05-21 145252](https://github.com/user-attachments/assets/89e69e80-5487-428d-a282-c2e3d3346092)
 
-![image](https://github.com/user-attachments/assets/136a0f3e-23a2-4b7d-8f8b-dbeec8aacffb)
+
 
 //Second screen
 
+![image](https://github.com/user-attachments/assets/136a0f3e-23a2-4b7d-8f8b-dbeec8aacffb)
 
-![Screenshot 2025-05-21 145252](https://github.com/user-attachments/assets/89e69e80-5487-428d-a282-c2e3d3346092)
+
 
 //Third screen showing that the application gives feedback right after selecting an answer
 

@@ -17,7 +17,7 @@
         Nelson Mandela's middle name is Rolihlalhla.,
         Nelson Mandela went to prison for 50 years.,
         Nelson Mandela was born in Umtata in the Eastern Cape. "
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />

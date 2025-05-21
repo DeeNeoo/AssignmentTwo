@@ -8,6 +8,7 @@ It is designed to help users study history by answering five True/False question
 https://www.youtube.com/watch?v=XxxLKck1hRM
 
 //gitHub repository link
+https://github.com/DeeNeoo/AssignmentTwo
 
 
 //Screen shots of the app.

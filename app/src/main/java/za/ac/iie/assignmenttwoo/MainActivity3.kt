@@ -42,8 +42,12 @@ class MainActivity3 : AppCompatActivity() {
 
         // Review button
         btnReview.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java).apply {
-                startActivity(intent)
+            btnReview.setOnClickListener {
+                val reviewIntent = Intent(this, MainActivity4::class.java).apply {
+                    putStringArrayListExtra("QUESTIONS", questions)
+                    putExtra("ANSWERS", answers)
+                }
+                startActivity(reviewIntent)
             }
         }
 

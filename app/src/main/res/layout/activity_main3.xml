@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="161dp"
         android:layout_marginBottom="165dp"
-        android:text="Play again"
+        android:text="Review"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

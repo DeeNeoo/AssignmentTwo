@@ -2,6 +2,7 @@ package za.ac.iie.assignmenttwoo
 
 import android.annotation.SuppressLint
 import android.os.Bundle
+import android.widget.LinearLayout
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -16,21 +17,29 @@ class MainActivity4 : AppCompatActivity() {
         setContentView(R.layout.activity_main4)
 
         val txtReviews = findViewById<TextView>(R.id.txtReviews)
-
         val questions = intent.getStringArrayListExtra("QUESTIONS")
         val answers = intent.getBooleanArrayExtra("ANSWERS")
+        val reviewLayout = findViewById<LinearLayout>(R.id.reviewLayout)
+
 
         // Build a string to display all questions and their correct answers
-        if (questions != null && answers != null && questions.size == answers.size) {
-            val reviewContent = StringBuilder()
-            for (i in questions.indices) { // Loop through the questions and answers
-                reviewContent.append("Q${i + 1}: ${questions[i]}\n")
-                reviewContent.append("Correct Answer: ${if (answers[i]) "True" else "False"}\n\n")
+        if (questions != null && answers != null) {
+            for (i in questions.indices) {
+                val questionText = TextView(this)
+                questionText.text = "${i + 1}. ${questions[i]} - ${if (answers[i]) "Correct" else "Incorrect"}"
+                questionText.setTextColor(
+                    resources.getColor(
+                        if (answers[i]) android.R.color.holo_green_dark else android.R.color.holo_red_dark,
+                        theme
+                    )
+                )
+                questionText.textSize = 18f
+                questionText.setPadding(16, 16, 16, 16)
+                reviewLayout.addView(questionText)
             }
-            txtReviews.text = reviewContent.toString()
-        } else {
-            txtReviews.text = "Error: Review data not loaded."
         }
+
+
 
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
